@@ -18,9 +18,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Link href="/contact">Contact</Link>
         </nav>
         <main className="p-6">{children}</main>
-        <footer className="w-full bg-gray-100 py-4 text-center text-sm text-gray-600">
-        <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
-         </footer>
+         <footer className="bg-gray-900 text-white py-6 mt-10">
+      <div className="container mx-auto px-4 text-center">
+        <p className="text-sm">
+          © {new Date().getFullYear()} YourCompanyName. All rights reserved.
+        </p>
+        <div className="mt-2 space-x-4">
+          <Link href="/" className="hover:underline">Home</Link>
+          <Link href="/about" className="hover:underline">About</Link>
+          <Link href="/services" className="hover:underline">Services</Link>
+          <Link href="/contact" className="hover:underline">Contact</Link>
+        </div>
+      </div>
+     </footer>
       </body>
     </html>
   )
