@@ -11,7 +11,7 @@ export default function About() {
           on quality, performance, and long-term partnerships.
         </p>
         <p>
-          Founded in 2021, we've worked with over 100 clients worldwide in industries like health, education, retail,
+          Founded in 2021, we ve worked with over 100 clients worldwide in industries like health, education, retail,
           and logistics.
         </p>
       </div>
